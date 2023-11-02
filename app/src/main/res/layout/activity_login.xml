@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/loginlayout"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/layoutlist"
+        android:hint="Email ID" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/edit"
+        android:layout_marginLeft="180px"
+        android:layout_marginTop="-29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Email ID" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-104dp"
+        android:background="@drawable/layoutlist"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginLeft="180px"
+        android:layout_marginBottom="-69dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Password" />
+
+    <Button
+        android:id="@+id/loginn"
+        android:layout_width="242dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-117dp"
+        android:background="@drawable/buttonframe"
+        android:text="Login"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/registerr"
+        android:textSize="20dp"
+        android:layout_width="242dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonframe"
+        android:layout_marginLeft="126dp"
+        android:layout_marginBottom="-176dp"
+        android:text="Register" />
+</RelativeLayout>

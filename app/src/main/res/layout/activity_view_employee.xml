@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#737878"
+    tools:context=".ViewEmployee">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:id="@+id/ids"
+        android:layout_height="278dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/division"></ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:text="EMPLOYEE LIST"
+    android:layout_alignBottom="@+id/ids"
+    android:textColor="@color/white"
+    android:textFontWeight="900"
+    android:layout_centerHorizontal="true"
+
+    android:textSize="35dp" />
+
+   <TextView
+       android:id="@+id/un"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/ids"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-30dp"
+        android:text="-------------------------"
+        android:textColor="@color/white"
+
+        android:textFontWeight="900"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/ids"
+        android:background="#404FD5"
+        android:elevation="16dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="-130dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:id="@+id/na"
+            android:textAlignment="center"
+            android:text="NAME"  />
+
+        <TextView
+            android:id="@+id/po"
+            android:layout_width="0dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="POST"  />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_alignBottom="@+id/ids"
+        android:layout_marginBottom="-454dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>

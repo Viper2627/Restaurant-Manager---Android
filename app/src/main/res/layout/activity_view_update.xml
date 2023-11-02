@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/upf"
+    android:layout_height="match_parent"
+    tools:context=".ViewUpdate">
+
+    <ImageView
+        android:id="@+id/rec"
+        android:layout_width="187dp"
+        android:layout_height="275dp"
+        android:layout_marginTop="120dp"
+android:elevation="100dp"
+        android:src="@drawable/receipt">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+      android:layout_toRightOf="@+id/rec"
+        android:layout_marginTop="240dp"
+        android:textFontWeight="700"
+        android:fontFamily="cursive"
+        android:text="FOOD STATUS"
+
+        android:textSize="30dp"></TextView>
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="PRICE AND STATUS">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sta"
+        android:elevation="20dp"
+        android:layout_width="286dp"
+android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/status"
+        android:textFontWeight="600"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-63dp"
+        android:background="@color/white"
+        android:text="FOOD STATUS NOT UPDATED"
+        android:textSize="17dp"></TextView>
+
+</RelativeLayout>

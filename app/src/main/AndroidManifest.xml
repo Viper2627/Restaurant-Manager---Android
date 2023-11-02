@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Restro"
+        tools:targetApi="31">
+        <activity
+            android:name=".viewwaiter"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUserTable"
+            android:exported="false" />
+        <activity
+            android:name=".ViewEmployee"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".status"
+            android:exported="false" />
+        <activity
+            android:name=".foodview"
+            android:exported="false" />
+        <activity
+            android:name=".waiter"
+            android:exported="false" />
+        <activity
+            android:name=".ViewTable"
+            android:exported="false" />
+        <activity
+            android:name=".Manager"
+            android:exported="false" />
+        <activity
+            android:name=".employee"
+            android:exported="false" />
+        <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
+            android:name=".bookingdetail"
+            android:exported="false" />
+        <activity
+            android:name=".Detail"
+            android:exported="false" />
+        <activity
+            android:name=".customerbooktable"
+            android:exported="false" />
+        <activity
+            android:name=".booktable"
+            android:exported="false" />
+        <activity
+            android:name=".userpage"
+            android:exported="false" />
+        <activity
+            android:name=".admin"
+            android:exported="false" />
+        <activity
+            android:name=".Main"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/Theme.Restro.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

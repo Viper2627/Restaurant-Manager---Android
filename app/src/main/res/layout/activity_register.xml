@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerla"
+    tools:context=".register">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="274dp"
+        android:paddingLeft="30dp"
+        android:layout_height="58dp"
+        android:background="@drawable/rec"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500px"
+
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/PersonName"
+        android:layout_width="274dp"
+        android:layout_height="58dp"
+        android:layout_alignBottom="@id/editTextTextEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-129dp"
+        android:background="@drawable/rec"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="274dp"
+        android:layout_height="58dp"
+        android:layout_alignBottom="@id/editTextTextEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-69dp"
+        android:background="@drawable/rec"
+        android:ems="10"
+        android:hint="Password"
+
+        android:inputType="textPassword"
+        android:paddingLeft="30dp" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="274dp"
+        android:layout_height="58dp"
+        android:layout_alignBottom="@id/editTextTextEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-199dp"
+        android:background="@drawable/rec"
+        android:ems="10"
+        android:hint="Mobile No."
+
+        android:inputType="textEmailAddress"
+        android:paddingLeft="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="205dp"
+        android:layout_height="73dp"
+        android:layout_alignBottom="@id/editTextTextEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-293dp"
+        android:background="@drawable/buttonframe"
+        android:text="Submit"
+        android:textSize="40px" />
+</RelativeLayout>

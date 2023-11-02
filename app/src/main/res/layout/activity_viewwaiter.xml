@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:background="#FF4848"
+    tools:context=".viewwaiter">
+    <ImageView
+        android:id="@+id/ha"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/headta">
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_marginTop="180dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tablea">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/a"
+        android:layout_marginBottom="-130dp"
+        android:src="@drawable/tableb">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/a"
+        android:layout_marginBottom="-383dp"
+        android:src="@drawable/tablec">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/a"
+        android:layout_marginBottom="-259dp"
+        android:src="@drawable/tabled">
+
+    </ImageView>
+
+</RelativeLayout>

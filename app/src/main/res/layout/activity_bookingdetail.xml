@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".bookingdetail">
+
+
+
+    <ImageView
+        android:layout_width="224dp"
+        android:layout_height="133dp"
+        android:id="@+id/head"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tables"
+        android:elevation="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textFontWeight="700"
+        android:layout_alignBottom="@id/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-37dp"
+        android:fontFamily="cursive"
+
+        android:text="DETAIL OF BOOKING"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="374dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/logcon">
+
+    </ImageView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/id"
+        android:layout_width="302dp"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_height="48dp"
+        android:layout_marginTop="220dp"
+        android:background="#fff"
+
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"></com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/price"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/id"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="-153dp"
+        android:background="#fff"
+
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"></com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/phone"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/id"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="-77dp"
+
+
+        android:background="#fff"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"></com.google.android.material.textview.MaterialTextView>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/date"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/id"
+android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="-227dp"
+        android:background="#fff"></com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="302dp"
+        android:layout_height="62dp"
+        android:id="@+id/submit"
+        android:layout_alignBottom="@+id/id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-362dp"
+        android:background="#000"
+        android:text="BOOK">
+
+    </com.google.android.material.button.MaterialButton>
+</RelativeLayout>

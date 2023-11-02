@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context=".menu">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:fillViewport="true"
+       android:layout_height="match_parent">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="2500dp"
+          >
+
+           <ImageView
+               android:id="@+id/hda"
+               android:layout_width="match_parent"
+               android:layout_height="103dp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="20dp"
+               android:src="@drawable/headerdrinsks">
+
+           </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="100dp"
+        android:id="@+id/btea"
+        android:layout_height="128dp"
+        android:src="@drawable/blacktea"></ImageView>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="128dp"
+               android:layout_alignBottom="@+id/btea"
+               android:layout_marginTop="50dp"
+               android:layout_marginBottom="-150dp"
+               android:src="@drawable/milktea"></ImageView>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="128dp"
+               android:layout_alignBottom="@+id/btea"
+               android:layout_marginTop="50dp"
+               android:layout_marginBottom="-294dp"
+               android:src="@drawable/blackcoffee"></ImageView>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="128dp"
+               android:layout_alignBottom="@+id/btea"
+               android:layout_marginTop="50dp"
+               android:layout_marginBottom="-435dp"
+               android:src="@drawable/coffee"></ImageView>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="128dp"
+               android:layout_alignBottom="@+id/btea"
+
+               android:layout_marginTop="50dp"
+               android:layout_marginBottom="-571dp"
+               android:src="@drawable/drink"></ImageView>
+
+           <ImageView
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="195dp"
+               android:id="@+id/b"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+           <ImageView
+               android:id="@+id/c"
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_alignBottom="@+id/b"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="150dp"
+               android:layout_marginBottom="-149dp"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+           <ImageView
+               android:id="@+id/d"
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_alignBottom="@+id/b"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="150dp"
+               android:layout_marginBottom="-294dp"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+           <ImageView
+               android:id="@+id/e"
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_alignBottom="@+id/b"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="150dp"
+               android:layout_marginBottom="-440dp"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+
+           <ImageView
+               android:id="@+id/f"
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_alignBottom="@+id/b"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="150dp"
+               android:layout_marginBottom="-574dp"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+           <ImageView
+               android:id="@+id/hd"
+               android:layout_width="match_parent"
+               android:layout_height="103dp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="20dp"
+               android:src="@drawable/headerdrinsks">
+
+           </ImageView>
+
+           <ImageView
+               android:layout_width="match_parent"
+
+               android:layout_marginTop="900dp"
+               android:id="@+id/pizza"
+               android:layout_height="128dp"
+               android:src="@drawable/veg"></ImageView>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="128dp"
+               android:layout_alignBottom="@+id/pizza"
+               android:layout_marginTop="50dp"
+               android:layout_marginBottom="-150dp"
+               android:src="@drawable/cheese"></ImageView>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="128dp"
+               android:layout_alignBottom="@+id/pizza"
+               android:layout_marginTop="50dp"
+               android:layout_marginBottom="-294dp"
+               android:src="@drawable/pep"></ImageView>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="128dp"
+               android:layout_alignBottom="@+id/pizza"
+               android:layout_marginTop="50dp"
+               android:layout_marginBottom="-435dp"
+               android:src="@drawable/chicken"></ImageView>
+
+
+           <ImageView
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="980dp"
+               android:id="@+id/vp"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+           <ImageView
+               android:id="@+id/cp"
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_alignBottom="@+id/vp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="950dp"
+               android:layout_marginBottom="-149dp"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+           <ImageView
+               android:id="@+id/pp"
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_alignBottom="@+id/vp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="980dp"
+               android:layout_marginBottom="-305dp"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+
+           <ImageView
+               android:id="@+id/ccp"
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_alignBottom="@+id/vp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="150dp"
+               android:layout_marginBottom="-449dp"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+           <ImageView
+               android:id="@+id/g"
+               android:layout_width="89dp"
+               android:layout_height="33dp"
+               android:layout_alignBottom="@+id/b"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="150dp"
+               android:layout_marginBottom="-574dp"
+               android:background="@drawable/item">
+
+           </ImageView>
+
+
+           <ImageView
+               android:id="@+id/hds"
+               android:layout_width="match_parent"
+               android:layout_height="103dp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="820dp"
+               android:src="@drawable/headerpizza">
+
+           </ImageView>
+
+
+
+              <ImageView
+                  android:id="@+id/hdss"
+                  android:layout_width="match_parent"
+                  android:layout_height="103dp"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="1520dp"
+                  android:src="@drawable/mainheader">
+
+              </ImageView>
+
+              <ImageView
+                  android:layout_width="match_parent"
+
+                  android:layout_marginTop="1620dp"
+                  android:id="@+id/main"
+                  android:layout_height="128dp"
+                  android:src="@drawable/paneer"></ImageView>
+
+
+              <ImageView
+                  android:layout_width="match_parent"
+                  android:layout_height="128dp"
+                  android:layout_alignBottom="@+id/main"
+                  android:layout_marginTop="50dp"
+                  android:layout_marginBottom="-150dp"
+                  android:src="@drawable/chole"></ImageView>
+
+              <ImageView
+                  android:layout_width="match_parent"
+                  android:layout_height="128dp"
+                  android:layout_alignBottom="@+id/main"
+                  android:layout_marginTop="50dp"
+                  android:layout_marginBottom="-294dp"
+                  android:src="@drawable/butter"></ImageView>
+
+              <ImageView
+                  android:layout_width="match_parent"
+                  android:layout_height="128dp"
+                  android:layout_alignBottom="@+id/main"
+                  android:layout_marginTop="50dp"
+                  android:layout_marginBottom="-435dp"
+                  android:src="@drawable/momo"></ImageView>
+
+
+              <ImageView
+                  android:layout_width="89dp"
+                  android:layout_height="33dp"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="1720dp"
+                  android:id="@+id/mp"
+                  android:background="@drawable/item">
+
+              </ImageView>
+
+              <ImageView
+                  android:id="@+id/mc"
+                  android:layout_width="89dp"
+                  android:layout_height="33dp"
+                  android:layout_alignBottom="@+id/mp"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="950dp"
+                  android:layout_marginBottom="-149dp"
+                  android:background="@drawable/item">
+
+              </ImageView>
+
+
+              <ImageView
+                  android:id="@+id/mb"
+                  android:layout_width="89dp"
+                  android:layout_height="33dp"
+                  android:layout_alignBottom="@+id/mp"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="980dp"
+                  android:layout_marginBottom="-292dp"
+                  android:background="@drawable/item">
+
+              </ImageView>
+
+
+              <ImageView
+                  android:id="@+id/mmp"
+                  android:layout_width="89dp"
+                  android:layout_height="33dp"
+                  android:layout_alignBottom="@+id/mp"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="150dp"
+                  android:layout_marginBottom="-436dp"
+                  android:background="@drawable/item">
+
+              </ImageView>
+
+              <com.google.android.material.button.MaterialButton
+               android:layout_width="285dp"
+               android:layout_height="73dp"
+               android:id="@+id/submit"
+               app:cornerRadius="30dp"
+               android:layout_alignBottom="@+id/btea"
+               android:layout_centerHorizontal="true"
+               android:layout_marginBottom="-2070dp"
+               android:text="SUBMIT">
+
+           </com.google.android.material.button.MaterialButton>
+
+       </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

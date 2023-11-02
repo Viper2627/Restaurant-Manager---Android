@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foodview">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relss"
+        android:elevation="20dp"
+        android:background="#737878"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:text="NAME"
+            android:textColor="#fff" />
+
+
+
+        <TextView
+            android:id="@+id/price"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+
+            android:text="PRICE"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/food"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="FOOD LIST"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+
+        android:orientation="horizontal" />
+
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin"
+    android:background="#FFF3F3">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logout"
+        android:layout_width="300dp"
+        android:layout_height="67dp"
+        android:layout_alignBottom="@+id/lin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-144dp"
+        android:elevation="20dp"
+
+        android:text="LOGOUT"
+        app:backgroundTint="#69686A"
+        app:cornerRadius="30dp" />
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="215dp"
+        android:layout_height="206dp"
+android:layout_marginTop="10dp"
+
+        android:layout_marginBottom="-146dp"
+        android:src="@drawable/admin" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+       android:layout_toRightOf="@+id/welcome"
+        android:textColor="#C8CE16"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+
+
+        android:text="Welcome" />
+    <ViewFlipper
+        android:id="@+id/vi"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:layout_alignBottom="@+id/welcome"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="-165dp"></ViewFlipper>
+
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/vi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-129dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/create"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="CREATE EMPLOYEE"
+            android:textColor="@color/white"
+            app:backgroundTint="#8A4F4F"
+            app:cornerRadius="13dp"></com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/viewemp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="VIEW EMPLOYEE"
+            android:textColor="@color/white"
+            app:backgroundTint="#8A4F4F"
+            app:cornerRadius="13dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewwaiter"
+        android:layout_width="186dp"
+        android:layout_height="58dp"
+        android:layout_alignBottom="@+id/lin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-71dp"
+        android:layout_weight="1"
+        android:text="VIEW ASSIGNED WAITER"
+        android:textColor="@color/white"
+        app:backgroundTint="#8A4F4F"
+        app:cornerRadius="13dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sttatus"
+    android:layout_height="match_parent"
+    tools:context=".status">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="240dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="cursive"
+        android:textFontWeight="700"
+        android:text="UPLOAD THE STATUS OF FOOD"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="30dp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/id"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-79dp"
+
+        android:elevation="10dp"
+        android:hint="Enter Customer Name"
+        app:boxStrokeWidth="0dp"
+        android:background="#F1E4E4"
+        app:boxStrokeWidthFocused="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/status"
+        android:layout_alignBottom="@+id/id"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+
+        android:layout_centerHorizontal="true"
+      android:background="#F1E4E4"
+        android:layout_marginBottom="-80dp"
+        android:hint="Enter Food Status">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="241dp"
+        android:id="@+id/submit"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/id"
+        android:elevation="20dp"
+        app:cornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-188dp"
+        android:text="UPLOAD"></com.google.android.material.button.MaterialButton>
+</RelativeLayout>

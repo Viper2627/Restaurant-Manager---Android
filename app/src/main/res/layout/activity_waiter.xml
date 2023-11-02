@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D65252"
+    tools:context=".waiter">
+    <ImageView
+        android:id="@+id/button7"
+        android:layout_width="144dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/lin"
+        android:layout_marginBottom="-163dp"
+        android:background="@drawable/log"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="401dp"
+        android:layout_height="238dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/waiter"></ImageView>
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-55dp"
+        android:text="Waiter Panel"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="391dp"
+        android:layout_height="86dp"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-178dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/vi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-129dp"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/view"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="VIEW ORDERS"
+                android:textColor="@color/white"
+                app:elevation="20dp"
+                android:elevation="20dp"
+                app:backgroundTint="#980000"
+                android:textSize="17dp"
+                app:cornerRadius="13dp"></com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/update"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:textSize="17dp"
+                android:layout_weight="1"
+                android:text="UPDATE ORDERS"
+                android:textColor="@color/white"
+                app:elevation="20dp"
+                android:elevation="20dp"
+                app:backgroundTint="#980000"
+                app:cornerRadius="13dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

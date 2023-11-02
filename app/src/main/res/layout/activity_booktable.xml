@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#F1E4E4"
+    tools:context=".booktable">
+
+    <ImageView
+        android:layout_width="243dp"
+        android:layout_height="238dp"
+        android:elevation="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/restaurant" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submit"
+        android:layout_width="335dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:backgroundTint="@color/purple_700"
+        android:elevation="18dp"
+app:cornerRadius="15dp"
+        android:text="CREATE"
+        android:textSize="17dp" />
+
+    <RelativeLayout
+        android:layout_width="343dp"
+        android:layout_height="321dp"
+        android:elevation="40dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:background="@color/purple_700">
+
+
+        <RadioGroup
+            android:id="@+id/grp"
+            android:layout_width="305dp"
+            android:layout_height="78dp"
+            android:layout_alignBottom="@id/editTextTextPersonName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-81dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="BOOKED"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+
+                android:text="FREE"
+
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/dates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/editTextTextPersonName2"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="-59dp"
+            android:layout_toLeftOf="@+id/button3"
+            android:textColor="@color/white"
+            android:text="DATE NEED TO BE CHOOSE" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editTextTextPersonName2"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_marginRight="-7dp"
+
+            android:layout_marginBottom="-72dp"
+            android:text="Select Date" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="289dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+
+            android:ems="10"
+            android:hint="Table Id"
+
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="299dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/editTextTextPersonName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="-99dp"
+            android:background="#fff"
+            android:hint="type"
+            app:boxStrokeWidth="0dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/fillexposed"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="50dp"
+                android:inputType="none"></AutoCompleteTextView>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_alignBottom="@+id/editTextTextPersonName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-162dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="PRICE"
+            android:padding="10dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
